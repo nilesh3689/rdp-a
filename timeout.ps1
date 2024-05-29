@@ -1,6 +1,6 @@
 $i = 360
-do {
+while ($true) {
     Write-Host $i
     Sleep 60
     $i--
-} while ($i -gt 0)
+}
